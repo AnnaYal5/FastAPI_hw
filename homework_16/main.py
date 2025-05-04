@@ -28,7 +28,7 @@ app = FastAPI()
 bd = {}
 active_connections: Dict[str, WebSocket] = {}
 
-SECRET_KEY = "your-secret"
+SECRET_KEY = ""
 ALGORITHM = "HS256"
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
